@@ -1,0 +1,410 @@
+2026-03-13T11:14:53.601Z [INFO] ✅ MongoDB connected
+2026-03-13T11:14:53.613Z [INFO] 🚀 Server on port 3000
+2026-03-13T11:15:36.926Z [INFO] ✅ MongoDB connected
+2026-03-13T11:15:36.929Z [INFO] 🚀 Server on port 3000
+2026-03-13T11:15:42.098Z [INFO] ✅ MongoDB connected
+2026-03-13T11:15:42.101Z [INFO] 🚀 Server on port 3000
+2026-03-13T11:24:42.297Z [INFO] POST /api/auth/login 400 98 - 24.764 ms
+2026-03-13T11:25:00.101Z [INFO] POST /api/auth/login 200 310 - 307.867 ms
+2026-03-13T11:25:33.040Z [INFO] POST /api/auth/register 409 43 - 46.015 ms
+2026-03-13T11:25:34.298Z [INFO] POST /api/auth/login 401 37 - 41.948 ms
+2026-03-13T11:25:45.414Z [INFO] POST /api/auth/register 409 43 - 41.565 ms
+2026-03-13T11:25:49.521Z [INFO] POST /api/auth/register 409 43 - 46.447 ms
+2026-03-13T11:25:50.686Z [INFO] POST /api/auth/register 201 309 - 349.469 ms
+2026-03-13T11:25:55.967Z [INFO] POST /api/auth/register 409 43 - 50.466 ms
+2026-03-13T11:26:01.246Z [INFO] POST /api/auth/register 409 43 - 53.157 ms
+2026-03-13T11:26:04.545Z [INFO] POST /api/auth/register 409 43 - 50.977 ms
+2026-03-13T11:26:05.627Z [INFO] POST /api/auth/register 409 43 - 44.302 ms
+2026-03-13T11:26:06.135Z [INFO] POST /api/auth/register 201 319 - 344.992 ms
+2026-03-13T11:26:06.228Z [INFO] POST /api/auth/register 409 43 - 44.360 ms
+2026-03-13T11:26:06.707Z [INFO] POST /api/auth/register 409 43 - 47.831 ms
+2026-03-13T11:26:07.379Z [INFO] POST /api/auth/register 409 43 - 44.576 ms
+2026-03-13T11:26:09.202Z [INFO] POST /api/auth/register 409 43 - 44.992 ms
+2026-03-13T11:26:12.057Z [INFO] POST /api/auth/register 201 319 - 345.910 ms
+2026-03-13T11:26:17.971Z [INFO] POST /api/auth/register 409 43 - 48.764 ms
+2026-03-13T11:26:34.685Z [INFO] POST /api/auth/login 200 319 - 274.375 ms
+2026-03-13T11:26:35.693Z [INFO] POST /api/auth/login 200 319 - 271.855 ms
+2026-03-13T11:26:42.257Z [INFO] POST /api/auth/login 200 319 - 271.201 ms
+2026-03-13T11:52:13.462Z [INFO] POST /api/auth/login 200 319 - 269.423 ms
+2026-03-13T11:52:17.470Z [INFO] POST /api/auth/login 200 319 - 268.246 ms
+2026-03-13T11:52:20.450Z [INFO] POST /api/auth/login 401 37 - 268.102 ms
+2026-03-13T11:52:21.864Z [INFO] POST /api/auth/login 401 37 - 266.000 ms
+2026-03-13T11:52:27.428Z [INFO] POST /api/auth/login 200 319 - 266.871 ms
+2026-03-13T11:52:55.785Z [INFO] POST /api/auth/login 200 319 - 274.323 ms
+2026-03-13T11:53:05.660Z [INFO] POST /api/auth/login 200 319 - 268.276 ms
+2026-03-13T11:53:06.670Z [INFO] POST /api/auth/login 200 319 - 265.205 ms
+2026-03-13T11:53:57.881Z [INFO] POST /api/auth/login 200 319 - 284.462 ms
+2026-03-13T11:53:57.931Z [INFO] Connected: satyam123 [eTaashuGhcquc71pAAAB]
+2026-03-13T11:53:58.050Z [INFO] GET /api/payment/balance 200 55 - 115.310 ms
+2026-03-13T11:53:58.323Z [INFO] GET /api/chats 200 2 - 68.970 ms
+2026-03-13T11:54:02.838Z [INFO] POST /api/auth/login 200 319 - 311.251 ms
+2026-03-13T11:54:04.782Z [INFO] POST /api/auth/login 200 319 - 276.167 ms
+2026-03-13T11:54:14.617Z [INFO] POST /api/auth/login 200 319 - 266.199 ms
+2026-03-13T11:54:35.094Z [INFO] POST /api/auth/login 200 319 - 271.069 ms
+2026-03-13T11:54:46.450Z [INFO] POST /api/auth/login 200 319 - 272.034 ms
+2026-03-13T11:54:50.939Z [INFO] POST /api/auth/login 200 319 - 264.535 ms
+2026-03-13T11:54:51.337Z [INFO] POST /api/auth/login 200 319 - 266.347 ms
+2026-03-13T11:55:01.356Z [INFO] GET /api/payment/auto-debit 200 84 - 78.466 ms
+2026-03-13T11:55:03.665Z [INFO] GET /api/chats 304 - - 63.794 ms
+2026-03-13T11:55:04.550Z [INFO] POST /api/chats 201 248 - 76.679 ms
+2026-03-13T11:55:14.706Z [WARN] Gemini retry 1: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-03-13T11:55:14.857Z [WARN] Gemini retry 1: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-03-13T11:55:15.848Z [WARN] Gemini retry 2: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-03-13T11:55:16.158Z [WARN] Gemini retry 2: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-03-13T11:55:17.985Z [ERROR] Topic gen failed: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-03-13T11:55:18.302Z [ERROR] Reply error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-03-13T12:03:19.708Z [INFO] ✅ MongoDB connected
+2026-03-13T12:03:19.712Z [INFO] 🚀 Server on port 3000
+2026-03-13T12:03:19.736Z [INFO] Connected: satyam123 [AZKrU8LFM8hhqik_AAAB]
+2026-03-13T12:03:41.908Z [INFO] GET /api/chats 200 187 - 90.656 ms
+2026-03-13T12:03:52.043Z [WARN] Gemini retry 1: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-03-13T12:03:53.186Z [WARN] Gemini retry 2: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-03-13T12:03:55.310Z [ERROR] Topic gen failed: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-03-13T12:04:17.030Z [INFO] ✅ MongoDB connected
+2026-03-13T12:04:17.033Z [INFO] 🚀 Server on port 3000
+2026-03-13T12:04:19.589Z [INFO] Connected: satyam123 [MUnmlq8maoXe1mDTAAAB]
+2026-03-13T12:04:27.538Z [INFO] GET /api/chats 200 216 - 96.290 ms
+2026-03-13T12:04:35.970Z [WARN] Gemini retry 1: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-03-13T12:04:37.139Z [WARN] Gemini retry 2: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-03-13T12:04:39.264Z [ERROR] Topic gen failed: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-03-13T12:04:40.547Z [INFO] GET /api/chats 200 224 - 82.500 ms
+2026-03-13T12:05:27.230Z [INFO] POST /api/chats 201 248 - 74.924 ms
+2026-03-13T12:05:33.680Z [WARN] Gemini retry 1: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-03-13T12:05:34.823Z [WARN] Gemini retry 2: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-03-13T12:05:36.967Z [ERROR] Topic gen failed: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-03-13T12:05:39.489Z [INFO] GET /api/chats 200 422 - 77.554 ms
+2026-03-13T12:05:44.139Z [INFO] DELETE /api/chats/fe2047e777024ee4 200 16 - 79.333 ms
+2026-03-13T12:05:44.221Z [INFO] GET /api/chats 200 224 - 77.609 ms
+2026-03-13T12:05:47.422Z [INFO] GET /api/chats 304 - - 71.942 ms
+2026-03-13T12:06:47.694Z [INFO] Disconnected: satyam123
+2026-03-13T12:06:49.813Z [INFO] Connected: satyam123 [DsE80BhKXyHqgt9BAAAD]
+2026-03-13T12:06:49.943Z [INFO] GET /api/payment/balance 200 55 - 121.073 ms
+2026-03-13T12:06:50.135Z [INFO] GET /api/chats 304 - - 94.162 ms
+2026-03-13T12:07:03.773Z [WARN] Gemini retry 1: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-03-13T12:07:04.906Z [WARN] Gemini retry 2: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-03-13T12:07:07.058Z [ERROR] Topic gen failed: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-03-13T12:07:42.138Z [WARN] Gemini retry 1: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-03-13T12:07:43.294Z [WARN] Gemini retry 2: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-03-13T12:07:45.453Z [ERROR] Topic gen failed: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-03-13T12:07:51.091Z [INFO] GET /api/chats 200 242 - 67.869 ms
+2026-03-13T12:07:56.017Z [INFO] GET /api/chats 304 - - 67.023 ms
+2026-03-13T12:07:57.805Z [INFO] Disconnected: satyam123
+2026-03-13T12:07:59.089Z [INFO] Connected: satyam123 [WvgHUcwIcdee1VpPAAAF]
+2026-03-13T12:07:59.211Z [INFO] GET /api/payment/balance 200 55 - 105.754 ms
+2026-03-13T12:07:59.404Z [INFO] GET /api/chats 304 - - 64.593 ms
+2026-03-13T12:08:42.846Z [INFO] GET /api/chats 304 - - 72.812 ms
+2026-03-13T12:09:14.592Z [INFO] Disconnected: satyam123
+2026-03-13T12:09:16.008Z [INFO] Connected: satyam123 [kh4YLvowr9TvTqzKAAAH]
+2026-03-13T12:09:16.121Z [INFO] GET /api/payment/balance 304 - - 105.658 ms
+2026-03-13T12:09:16.280Z [INFO] GET /api/chats 304 - - 72.459 ms
+2026-03-13T12:09:19.366Z [INFO] Connected: satyam123 [tnTAVWAHPz94WMTNAAAJ]
+2026-03-13T12:09:19.504Z [INFO] GET /api/payment/balance 304 - - 130.834 ms
+2026-03-13T12:09:19.699Z [INFO] GET /api/chats 304 - - 73.940 ms
+2026-03-13T12:09:32.911Z [INFO] Connected: satyam123 [Wv1YUvILrMvbmGe4AAAL]
+2026-03-13T12:09:33.032Z [INFO] GET /api/payment/balance 304 - - 117.081 ms
+2026-03-13T12:09:33.252Z [INFO] GET /api/chats 304 - - 68.899 ms
+2026-03-13T12:09:36.609Z [INFO] Connected: satyam123 [9bpIXQqZxWn_SVoHAAAN]
+2026-03-13T12:09:36.716Z [INFO] GET /api/payment/balance 304 - - 106.290 ms
+2026-03-13T12:09:36.855Z [INFO] GET /api/chats 304 - - 66.802 ms
+2026-03-13T12:09:42.149Z [INFO] Connected: satyam123 [san6ZxN8GcZ8nSHPAAAP]
+2026-03-13T12:09:42.284Z [INFO] GET /api/payment/balance 304 - - 122.971 ms
+2026-03-13T12:09:42.449Z [INFO] GET /api/chats 304 - - 88.443 ms
+2026-03-13T12:11:09.683Z [INFO] Connected: satyam123 [3MZg3TM1dVrRcVBKAAAR]
+2026-03-13T12:11:09.866Z [INFO] GET /api/payment/balance 304 - - 118.437 ms
+2026-03-13T12:11:10.035Z [INFO] GET /api/chats 304 - - 69.558 ms
+2026-03-13T12:14:10.802Z [INFO] Connected: satyam123 [XaG7d9RjtOwrdZjhAAAT]
+2026-03-13T12:14:10.908Z [INFO] GET /api/payment/balance 304 - - 103.058 ms
+2026-03-13T12:14:24.494Z [INFO] GET /api/chats 304 - - 66.015 ms
+2026-03-13T12:22:00.442Z [INFO] Connected: satyam123 [9r2asO2HtaJd5Ag9AAAV]
+2026-03-13T12:22:00.553Z [INFO] GET /api/payment/balance 304 - - 108.953 ms
+2026-03-13T12:22:02.831Z [INFO] GET /api/chats 304 - - 67.875 ms
+2026-03-13T12:25:48.908Z [INFO] ✅ MongoDB connected
+2026-03-13T12:25:48.911Z [INFO] 🚀 Server on port 3000
+2026-03-13T12:25:48.993Z [INFO] Connected: satyam123 [dqYIfuU9misZjh6PAAAB]
+2026-03-13T12:26:01.262Z [INFO] Disconnected: satyam123
+2026-03-13T12:26:02.571Z [INFO] Connected: satyam123 [nUwqxjnk4COFiQLyAAAD]
+2026-03-13T12:26:02.725Z [INFO] GET /api/payment/balance 304 - - 134.087 ms
+2026-03-13T12:26:02.936Z [INFO] GET /api/chats 304 - - 59.527 ms
+2026-03-13T12:26:15.134Z [INFO] Topic set for ff37bd31ffa74172: "Start casual conversation"
+2026-03-13T12:27:04.587Z [INFO] Connected: satyam123 [SBScCJ2CZT7Yn1rsAAAF]
+2026-03-13T12:27:04.686Z [INFO] GET /api/payment/balance 200 55 - 92.139 ms
+2026-03-13T12:27:06.519Z [INFO] Connected: satyam123 [wgALvxwg98EVxu8yAAAH]
+2026-03-13T12:27:06.619Z [INFO] GET /api/payment/balance 304 - - 97.870 ms
+2026-03-13T12:27:06.898Z [INFO] Connected: satyam123 [gukBIKA1mPdlFbHxAAAJ]
+2026-03-13T12:27:06.994Z [INFO] GET /api/payment/balance 304 - - 92.505 ms
+2026-03-13T12:27:07.341Z [INFO] Connected: satyam123 [a12Mbsi5rWZNsZgEAAAL]
+2026-03-13T12:27:07.447Z [INFO] GET /api/payment/balance 304 - - 100.398 ms
+2026-03-13T12:27:08.415Z [INFO] GET /api/chats 200 283 - 70.635 ms
+2026-03-13T12:27:11.607Z [INFO] Disconnected: satyam123
+2026-03-13T12:27:11.610Z [INFO] Disconnected: satyam123
+2026-03-13T12:27:11.611Z [INFO] Disconnected: satyam123
+2026-03-13T12:27:11.613Z [INFO] Disconnected: satyam123
+2026-03-13T12:27:11.615Z [INFO] Disconnected: satyam123
+2026-03-13T12:27:54.520Z [INFO] POST /api/auth/login 200 319 - 337.511 ms
+2026-03-13T12:27:54.560Z [INFO] Connected: satyam123 [mhRmJFxKN3oXpi8uAAAN]
+2026-03-13T12:27:54.679Z [INFO] GET /api/payment/balance 200 55 - 113.534 ms
+2026-03-13T12:27:54.895Z [INFO] GET /api/chats 200 283 - 74.238 ms
+2026-03-13T12:31:43.302Z [INFO] Connected: satyam123 [8t3EjNzU6mO-MRH5AAAP]
+2026-03-13T12:31:43.431Z [INFO] GET /api/payment/balance 304 - - 114.221 ms
+2026-03-13T12:31:48.910Z [INFO] Connected: satyam123 [jZd9-0paREYkE0SHAAAR]
+2026-03-13T12:31:49.025Z [INFO] GET /api/payment/balance 304 - - 111.670 ms
+2026-03-13T12:31:51.243Z [INFO] Connected: satyam123 [D0Ij9osJoPVvJ7BbAAAT]
+2026-03-13T12:31:51.354Z [INFO] GET /api/payment/balance 304 - - 109.420 ms
+2026-03-13T12:31:55.606Z [INFO] GET /api/chats 304 - - 77.719 ms
+2026-03-13T12:32:46.224Z [INFO] Connected: satyam123 [ay7QD_hBBeOZyiuhAAAV]
+2026-03-13T12:32:46.390Z [INFO] GET /api/payment/balance 304 - - 127.661 ms
+2026-03-13T12:32:46.623Z [INFO] GET /api/chats 304 - - 69.291 ms
+2026-03-13T12:33:54.775Z [INFO] Connected: satyam123 [wdNgUl_hjPI8M0crAAAX]
+2026-03-13T12:33:54.924Z [INFO] GET /api/payment/balance 304 - - 118.589 ms
+2026-03-13T12:33:55.069Z [INFO] GET /api/chats 304 - - 72.849 ms
+2026-03-13T12:34:15.009Z [INFO] Disconnected: satyam123
+2026-03-13T12:34:15.011Z [INFO] Disconnected: satyam123
+2026-03-13T12:34:15.012Z [INFO] Disconnected: satyam123
+2026-03-13T12:34:15.013Z [INFO] Disconnected: satyam123
+2026-03-13T12:34:15.014Z [INFO] Disconnected: satyam123
+2026-03-13T12:34:15.016Z [INFO] Disconnected: satyam123
+2026-03-13T12:34:17.555Z [INFO] Connected: satyam123 [0JHyg_iD4WXuWJEwAAAZ]
+2026-03-13T12:34:17.703Z [INFO] GET /api/payment/balance 304 - - 114.931 ms
+2026-03-13T12:34:17.968Z [INFO] GET /api/chats 304 - - 60.218 ms
+2026-03-13T12:35:03.123Z [INFO] Disconnected: satyam123
+2026-03-13T12:35:48.493Z [INFO] ✅ MongoDB connected
+2026-03-13T12:35:48.497Z [INFO] 🚀 Server on port 3000
+2026-03-13T12:36:15.127Z [INFO] POST /api/auth/login 200 319 - 327.955 ms
+2026-03-13T12:36:15.171Z [INFO] Connected: satyam123 [dDMpq7YPU-uM5wY7AAAB]
+2026-03-13T12:36:15.319Z [INFO] GET /api/payment/balance 200 55 - 138.872 ms
+2026-03-13T12:36:15.566Z [INFO] GET /api/chats 200 283 - 85.464 ms
+2026-03-13T12:39:10.694Z [INFO] ✅ MongoDB connected
+2026-03-13T12:39:10.697Z [INFO] 🚀 Server on port 3000
+2026-03-13T12:39:10.897Z [INFO] Connected: satyam123 [HV7MQOw4J-Acgct8AAAB]
+2026-03-13T12:39:27.959Z [INFO] GET /api/chats 200 224 - 79.673 ms
+2026-03-13T12:39:28.799Z [INFO] Disconnected: satyam123
+2026-03-13T12:39:30.810Z [INFO] Connected: satyam123 [mTcSkklL0rKR3ulwAAAD]
+2026-03-13T12:39:31.073Z [INFO] GET /api/payment/balance 200 56 - 188.946 ms
+2026-03-13T12:39:31.238Z [INFO] GET /api/chats 304 - - 78.209 ms
+2026-03-13T12:41:18.344Z [INFO] GET /api/chats 304 - - 84.024 ms
+2026-03-13T12:41:19.709Z [INFO] Disconnected: satyam123
+2026-03-13T12:41:20.837Z [INFO] Connected: satyam123 [-IugJi1adNY0Vw2lAAAF]
+2026-03-13T12:41:20.971Z [INFO] GET /api/payment/balance 200 57 - 117.190 ms
+2026-03-13T12:41:21.155Z [INFO] GET /api/chats 304 - - 72.650 ms
+2026-03-13T12:42:29.752Z [INFO] ✅ MongoDB connected
+2026-03-13T12:42:29.755Z [INFO] 🚀 Server on port 3000
+2026-03-13T12:42:30.027Z [INFO] Connected: satyam123 [K8CuNqVykVU7zhUjAAAB]
+2026-03-13T12:42:47.502Z [INFO] GET /api/chats 200 285 - 78.535 ms
+2026-03-13T12:42:50.447Z [INFO] GET /api/chats 304 - - 73.378 ms
+2026-03-13T12:42:52.719Z [INFO] GET /api/chats 304 - - 61.286 ms
+2026-03-13T12:42:53.257Z [INFO] Disconnected: satyam123
+2026-03-13T12:42:54.392Z [INFO] Connected: satyam123 [oqt-Diy-52PfEvoQAAAD]
+2026-03-13T12:42:54.497Z [INFO] GET /api/payment/balance 200 56 - 88.924 ms
+2026-03-13T12:42:54.803Z [INFO] GET /api/chats 304 - - 59.258 ms
+2026-03-13T12:43:51.308Z [INFO] GET /api/chats 200 287 - 91.989 ms
+2026-03-13T12:43:52.520Z [INFO] POST /api/chats 201 248 - 58.644 ms
+2026-03-13T12:44:06.196Z [INFO] GET /api/chats 200 501 - 60.668 ms
+2026-03-13T12:44:09.302Z [INFO] GET /api/chats 304 - - 55.631 ms
+2026-03-13T12:44:11.360Z [INFO] Topic set for 2a354afcadf94884: "Sawan month discussion"
+2026-03-13T12:44:13.679Z [INFO] Disconnected: satyam123
+2026-03-13T12:44:14.757Z [INFO] Connected: satyam123 [vjyrq6Lbnw2GW-d4AAAF]
+2026-03-13T12:44:14.870Z [INFO] GET /api/payment/balance 200 56 - 98.705 ms
+2026-03-13T12:44:15.053Z [INFO] GET /api/chats 200 515 - 60.507 ms
+2026-03-13T12:46:03.646Z [INFO] GET /api/chats 200 568 - 63.378 ms
+2026-03-13T12:46:49.624Z [INFO] ✅ MongoDB connected
+2026-03-13T12:46:49.627Z [INFO] 🚀 Server on port 3000
+2026-03-13T12:46:51.133Z [INFO] Connected: satyam123 [RivY8UFMNcIb6ISSAAAB]
+2026-03-13T12:48:01.970Z [INFO] ✅ MongoDB connected
+2026-03-13T12:48:01.973Z [INFO] 🚀 Server on port 3000
+2026-03-13T12:48:02.784Z [INFO] Connected: satyam123 [jGUHBbH7EUN18AMbAAAB]
+2026-03-13T12:48:07.607Z [INFO] GET /api/chats 304 - - 93.444 ms
+2026-03-13T12:48:09.971Z [INFO] GET /api/chats 304 - - 73.150 ms
+2026-03-13T12:48:10.408Z [INFO] Disconnected: satyam123
+2026-03-13T12:48:11.456Z [INFO] Connected: satyam123 [22aMuJDWKhm3EF5pAAAD]
+2026-03-13T12:48:11.580Z [INFO] GET /api/payment/balance 200 56 - 110.292 ms
+2026-03-13T12:48:11.749Z [INFO] GET /api/chats 304 - - 69.878 ms
+2026-03-13T12:48:23.964Z [INFO] GET /api/chats 200 500 - 76.769 ms
+2026-03-13T12:49:58.585Z [INFO] Connected: satyam123 [jwUZf_nV5-fXrPE_AAAF]
+2026-03-13T12:49:58.713Z [INFO] GET /api/payment/balance 200 56 - 104.796 ms
+2026-03-13T12:50:00.902Z [INFO] Connected: satyam123 [9oy3a6MxfAKw-8XPAAAH]
+2026-03-13T12:50:01.015Z [INFO] GET /api/payment/balance 304 - - 110.482 ms
+2026-03-13T12:50:02.242Z [INFO] Connected: satyam123 [MZNEpurn-YCqnqcWAAAJ]
+2026-03-13T12:50:02.357Z [INFO] GET /api/payment/balance 304 - - 112.125 ms
+2026-03-13T12:50:02.760Z [INFO] GET /api/chats 304 - - 79.316 ms
+2026-03-13T12:50:47.316Z [INFO] Connected: satyam123 [93uOL6QWg4uhcScjAAAL]
+2026-03-13T12:50:47.429Z [INFO] GET /api/payment/balance 304 - - 110.203 ms
+2026-03-13T12:50:50.087Z [INFO] Connected: satyam123 [OS49Hylh5HpelDSKAAAN]
+2026-03-13T12:50:50.198Z [INFO] GET /api/payment/balance 304 - - 109.496 ms
+2026-03-13T12:50:52.835Z [INFO] Connected: satyam123 [ULf74A3cKhaDGk84AAAP]
+2026-03-13T12:50:52.956Z [INFO] GET /api/payment/balance 304 - - 116.956 ms
+2026-03-13T12:50:53.774Z [INFO] GET /api/chats 304 - - 76.499 ms
+2026-03-13T12:52:25.887Z [INFO] Connected: satyam123 [Zvf-PM5uW1ezVmW9AAAR]
+2026-03-13T12:52:26.008Z [INFO] GET /api/payment/balance 304 - - 106.979 ms
+2026-03-13T12:52:29.410Z [INFO] Connected: satyam123 [LuAFBKFuMCrTc_u-AAAT]
+2026-03-13T12:52:29.519Z [INFO] GET /api/payment/balance 304 - - 107.632 ms
+2026-03-13T12:52:40.173Z [INFO] GET /api/chats 304 - - 69.245 ms
+2026-03-13T12:52:44.964Z [INFO] Connected: satyam123 [BOaVbPbQqbBurMdaAAAV]
+2026-03-13T12:52:45.080Z [INFO] GET /api/payment/balance 304 - - 110.935 ms
+2026-03-13T12:52:45.241Z [INFO] GET /api/chats 304 - - 87.975 ms
+2026-03-13T12:52:50.747Z [INFO] Connected: satyam123 [SJrnET-Ez1RcIOhUAAAX]
+2026-03-13T12:52:50.868Z [INFO] GET /api/payment/balance 304 - - 116.889 ms
+2026-03-13T12:52:51.040Z [INFO] GET /api/chats 304 - - 74.845 ms
+2026-03-13T12:53:33.458Z [INFO] Connected: satyam123 [rJWBAsgVAKVLrEU4AAAZ]
+2026-03-13T12:53:33.570Z [INFO] GET /api/payment/balance 304 - - 107.775 ms
+2026-03-13T12:53:37.055Z [INFO] Connected: satyam123 [KqxTWYM_FjvraBTaAAAb]
+2026-03-13T12:53:37.175Z [INFO] GET /api/payment/balance 304 - - 117.787 ms
+2026-03-13T12:53:39.820Z [INFO] Connected: satyam123 [vQw6BvekSvPkmRI4AAAd]
+2026-03-13T12:53:39.933Z [INFO] GET /api/payment/balance 304 - - 110.488 ms
+2026-03-13T12:53:42.488Z [INFO] Connected: satyam123 [M_GdZfAgH8upJewgAAAf]
+2026-03-13T12:53:42.596Z [INFO] GET /api/payment/balance 304 - - 104.581 ms
+2026-03-13T12:53:44.917Z [INFO] GET /api/chats 304 - - 70.691 ms
+2026-03-13T12:54:00.296Z [INFO] Connected: satyam123 [HzToht6DWGL1kEOnAAAh]
+2026-03-13T12:54:00.404Z [INFO] GET /api/payment/balance 304 - - 102.080 ms
+2026-03-13T12:54:00.567Z [INFO] GET /api/chats 304 - - 75.276 ms
+2026-03-13T12:54:03.411Z [INFO] Connected: satyam123 [DOs06B-rAVM3QV39AAAj]
+2026-03-13T12:54:03.518Z [INFO] GET /api/payment/balance 304 - - 105.286 ms
+2026-03-13T12:54:03.665Z [INFO] GET /api/chats 304 - - 72.039 ms
+2026-03-13T12:54:04.549Z [INFO] Connected: satyam123 [ROM3O_AN2xUoRg4TAAAl]
+2026-03-13T12:54:04.675Z [INFO] GET /api/payment/balance 304 - - 122.525 ms
+2026-03-13T12:54:04.825Z [INFO] GET /api/chats 304 - - 76.713 ms
+2026-03-13T12:54:15.311Z [INFO] GET /api/chats 304 - - 74.728 ms
+2026-03-13T12:54:18.107Z [INFO] GET /api/chats 304 - - 68.492 ms
+2026-03-13T12:54:21.801Z [INFO] Connected: satyam123 [84Et-dbCCX3Ku-G8AAAn]
+2026-03-13T12:54:21.910Z [INFO] GET /api/payment/balance 304 - - 103.366 ms
+2026-03-13T12:54:22.052Z [INFO] GET /api/chats 304 - - 73.856 ms
+2026-03-13T12:55:31.890Z [INFO] Connected: satyam123 [yJHKmdkeelZ6jBmHAAAp]
+2026-03-13T12:55:32.001Z [INFO] GET /api/payment/balance 304 - - 108.099 ms
+2026-03-13T12:55:32.288Z [INFO] Connected: satyam123 [9iWg4FuaMg2HALUwAAAr]
+2026-03-13T12:55:32.397Z [INFO] GET /api/payment/balance 304 - - 107.482 ms
+2026-03-13T12:55:34.338Z [INFO] Connected: satyam123 [q5_mJ4w54ZFaerFjAAAt]
+2026-03-13T12:55:34.456Z [INFO] GET /api/payment/balance 304 - - 113.255 ms
+2026-03-13T12:55:44.754Z [INFO] GET /api/chats 304 - - 68.285 ms
+2026-03-13T12:56:22.895Z [INFO] Connected: satyam123 [Iu6FGERVxVoDtcRCAAAv]
+2026-03-13T12:56:23.006Z [INFO] GET /api/payment/balance 304 - - 107.947 ms
+2026-03-13T12:56:32.567Z [INFO] Connected: satyam123 [Pv_hcnB_Zo6rq774AAAx]
+2026-03-13T12:56:32.676Z [INFO] GET /api/payment/balance 304 - - 105.687 ms
+2026-03-13T12:56:32.995Z [INFO] Connected: satyam123 [QMKaAUSrWW81C-pNAAAz]
+2026-03-13T12:56:33.103Z [INFO] GET /api/payment/balance 304 - - 106.059 ms
+2026-03-13T12:56:37.657Z [INFO] Connected: satyam123 [zchW3cMYs-YAGUCIAAA1]
+2026-03-13T12:56:37.771Z [INFO] GET /api/payment/balance 304 - - 108.553 ms
+2026-03-13T12:56:38.604Z [INFO] Connected: satyam123 [V2GlBfAhEYtpYqfUAAA3]
+2026-03-13T12:56:38.721Z [INFO] GET /api/payment/balance 304 - - 114.574 ms
+2026-03-13T12:56:38.942Z [INFO] GET /api/chats 304 - - 71.096 ms
+2026-03-13T12:56:51.179Z [INFO] Connected: satyam123 [nnVz1TDTSsZWL3XaAAA5]
+2026-03-13T12:56:51.287Z [INFO] GET /api/payment/balance 304 - - 102.292 ms
+2026-03-13T12:56:53.132Z [INFO] Connected: satyam123 [0Ga4aTCXp2PK0W5YAAA7]
+2026-03-13T12:56:53.243Z [INFO] GET /api/payment/balance 304 - - 108.694 ms
+2026-03-13T12:56:54.942Z [INFO] GET /api/chats 304 - - 70.568 ms
+2026-03-13T12:57:26.054Z [INFO] Connected: satyam123 [LcxCYYad3UCs6W_IAAA9]
+2026-03-13T12:57:26.168Z [INFO] GET /api/payment/balance 304 - - 110.310 ms
+2026-03-13T12:57:28.646Z [INFO] Connected: satyam123 [zNoFQjpaDjmIKnY1AAA_]
+2026-03-13T12:57:28.762Z [INFO] GET /api/payment/balance 304 - - 101.912 ms
+2026-03-13T12:57:28.978Z [INFO] GET /api/chats 304 - - 76.018 ms
+2026-03-13T12:58:10.262Z [INFO] Connected: satyam123 [0t4FOrypnppWgzJtAABB]
+2026-03-13T12:58:10.371Z [INFO] GET /api/payment/balance 304 - - 103.932 ms
+2026-03-13T12:58:11.703Z [INFO] Connected: satyam123 [KB-UyHkg9FuZhbmFAABD]
+2026-03-13T12:58:11.809Z [INFO] GET /api/payment/balance 304 - - 103.633 ms
+2026-03-13T12:58:12.980Z [INFO] GET /api/chats 304 - - 74.238 ms
+2026-03-13T12:59:16.960Z [INFO] Connected: satyam123 [3UrMJOIaMFIxgPcLAABF]
+2026-03-13T12:59:17.065Z [INFO] GET /api/payment/balance 304 - - 101.254 ms
+2026-03-13T12:59:37.227Z [INFO] Connected: satyam123 [O-4bV5GpMIUYkIJ4AABH]
+2026-03-13T12:59:37.332Z [INFO] GET /api/payment/balance 304 - - 101.465 ms
+2026-03-13T12:59:37.574Z [INFO] Connected: satyam123 [RjZQkB0pi9wFmD9NAABJ]
+2026-03-13T12:59:37.677Z [INFO] GET /api/payment/balance 304 - - 101.306 ms
+2026-03-13T12:59:43.973Z [INFO] Connected: satyam123 [BneN5dW2_-r8oodaAABL]
+2026-03-13T12:59:44.086Z [INFO] GET /api/payment/balance 304 - - 109.422 ms
+2026-03-13T12:59:46.955Z [INFO] GET /api/chats 304 - - 76.766 ms
+2026-03-13T13:00:11.748Z [INFO] Connected: satyam123 [PQjGubWZTHWu8DQJAABN]
+2026-03-13T13:00:11.864Z [INFO] GET /api/payment/balance 304 - - 110.747 ms
+2026-03-13T13:00:12.028Z [INFO] GET /api/chats 304 - - 81.485 ms
+2026-03-13T13:00:13.649Z [INFO] Connected: satyam123 [mP8JojlZexqOw9z0AABP]
+2026-03-13T13:00:13.779Z [INFO] GET /api/payment/balance 304 - - 125.565 ms
+2026-03-13T13:00:13.942Z [INFO] GET /api/chats 304 - - 77.079 ms
+2026-03-13T13:00:28.278Z [INFO] Connected: satyam123 [XW-wGVxLJzkW9LeMAABR]
+2026-03-13T13:00:28.399Z [INFO] GET /api/payment/balance 304 - - 116.180 ms
+2026-03-13T13:00:36.807Z [INFO] GET /api/chats 304 - - 73.278 ms
+2026-03-13T13:01:03.308Z [INFO] Disconnected: satyam123
+2026-03-13T13:01:03.314Z [INFO] Disconnected: satyam123
+2026-03-13T13:01:03.315Z [INFO] Disconnected: satyam123
+2026-03-13T13:01:03.317Z [INFO] Disconnected: satyam123
+2026-03-13T13:01:03.319Z [INFO] Disconnected: satyam123
+2026-03-13T13:01:03.321Z [INFO] Disconnected: satyam123
+2026-03-13T13:01:03.323Z [INFO] Disconnected: satyam123
+2026-03-13T13:01:03.325Z [INFO] Disconnected: satyam123
+2026-03-13T13:01:03.325Z [INFO] Disconnected: satyam123
+2026-03-13T13:01:03.326Z [INFO] Disconnected: satyam123
+2026-03-13T13:01:03.326Z [INFO] Disconnected: satyam123
+2026-03-13T13:01:03.327Z [INFO] Disconnected: satyam123
+2026-03-13T13:01:03.327Z [INFO] Disconnected: satyam123
+2026-03-13T13:01:03.327Z [INFO] Disconnected: satyam123
+2026-03-13T13:01:03.328Z [INFO] Disconnected: satyam123
+2026-03-13T13:01:03.328Z [INFO] Disconnected: satyam123
+2026-03-13T13:01:03.329Z [INFO] Disconnected: satyam123
+2026-03-13T13:01:03.329Z [INFO] Disconnected: satyam123
+2026-03-13T13:01:03.330Z [INFO] Disconnected: satyam123
+2026-03-13T13:01:03.331Z [INFO] Disconnected: satyam123
+2026-03-13T13:01:03.331Z [INFO] Disconnected: satyam123
+2026-03-13T13:01:03.332Z [INFO] Disconnected: satyam123
+2026-03-13T13:01:03.332Z [INFO] Disconnected: satyam123
+2026-03-13T13:01:03.333Z [INFO] Disconnected: satyam123
+2026-03-13T13:01:03.333Z [INFO] Disconnected: satyam123
+2026-03-13T13:01:03.337Z [INFO] Disconnected: satyam123
+2026-03-13T13:01:03.338Z [INFO] Disconnected: satyam123
+2026-03-13T13:01:03.340Z [INFO] Disconnected: satyam123
+2026-03-13T13:01:03.341Z [INFO] Disconnected: satyam123
+2026-03-13T13:01:03.342Z [INFO] Disconnected: satyam123
+2026-03-13T13:01:03.342Z [INFO] Disconnected: satyam123
+2026-03-13T13:01:03.343Z [INFO] Disconnected: satyam123
+2026-03-13T13:01:03.343Z [INFO] Disconnected: satyam123
+2026-03-13T13:01:03.343Z [INFO] Disconnected: satyam123
+2026-03-13T13:01:03.344Z [INFO] Disconnected: satyam123
+2026-03-13T13:01:03.345Z [INFO] Disconnected: satyam123
+2026-03-13T13:01:03.345Z [INFO] Disconnected: satyam123
+2026-03-13T13:01:03.345Z [INFO] Disconnected: satyam123
+2026-03-13T13:01:03.346Z [INFO] Disconnected: satyam123
+2026-03-13T13:01:03.346Z [INFO] Disconnected: satyam123
+2026-03-13T13:03:32.275Z [INFO] POST /api/auth/login 200 319 - 322.382 ms
+2026-03-13T13:03:54.250Z [INFO] POST /api/auth/login 200 319 - 276.789 ms
+2026-03-13T13:03:56.333Z [INFO] POST /api/auth/login 200 319 - 276.673 ms
+2026-03-13T13:03:57.164Z [INFO] POST /api/auth/login 200 319 - 275.087 ms
+2026-03-13T13:04:13.656Z [INFO] POST /api/auth/login 200 319 - 274.462 ms
+2026-03-13T13:05:40.558Z [INFO] POST /api/auth/login 200 309 - 278.784 ms
+2026-03-13T13:07:29.751Z [INFO] POST /auth/login 404 150 - 1.036 ms
+2026-03-13T13:07:36.565Z [INFO] GET /auth/login 404 149 - 0.344 ms
+2026-03-13T13:07:41.376Z [INFO] POST /auth/login 404 150 - 0.436 ms
+2026-03-13T13:08:16.545Z [INFO] POST /api/auth/login 200 319 - 375.791 ms
+2026-03-13T13:09:43.363Z [INFO] POST /api/auth/login 200 319 - 273.299 ms
+2026-03-13T13:11:38.298Z [INFO] ✅ MongoDB connected
+2026-03-13T13:11:38.302Z [INFO] 🚀 Server on port 3000
+2026-03-13T13:11:45.126Z [INFO] ✅ MongoDB connected
+2026-03-13T13:11:45.129Z [INFO] 🚀 Server on port 3000
+2026-03-13T13:11:53.674Z [INFO] POST /api/auth/login 200 319 - 349.676 ms
+2026-03-13T13:11:55.466Z [INFO] POST /api/auth/login 200 319 - 288.344 ms
+2026-03-13T13:13:32.179Z [INFO] ✅ MongoDB connected
+2026-03-13T13:13:32.182Z [INFO] 🚀 Server on port 3000
+2026-03-13T13:13:50.681Z [INFO] POST /api/auth/login 200 319 - 337.032 ms
+2026-03-13T13:17:33.866Z [INFO] ✅ MongoDB connected
+2026-03-13T13:17:33.869Z [INFO] 🚀 Server on port 3000
+2026-03-13T13:17:50.654Z [INFO] ✅ MongoDB connected
+2026-03-13T13:17:50.659Z [INFO] 🚀 Server on port 3000
+2026-03-13T13:17:56.599Z [INFO] POST /api/auth/login 200 319 - 308.096 ms
+2026-03-13T13:17:57.742Z [INFO] POST /api/auth/login 200 319 - 296.632 ms
+2026-03-13T13:18:01.292Z [INFO] POST /api/auth/login 200 319 - 296.348 ms
+2026-03-13T13:18:26.838Z [INFO] ✅ MongoDB connected
+2026-03-13T13:18:26.841Z [INFO] 🚀 Server on port 3000
+2026-03-13T13:18:29.923Z [INFO] POST /api/auth/login 200 319 - 302.149 ms
+2026-03-13T13:20:21.855Z [INFO] ✅ MongoDB connected
+2026-03-13T13:20:21.861Z [INFO] 🚀 Server on port 3000
+2026-03-13T13:20:55.142Z [INFO] ✅ MongoDB connected
+2026-03-13T13:20:55.152Z [INFO] 🚀 Server on port 3000
+2026-03-13T13:21:03.896Z [INFO] GET /flutter.js.map 404 153 - 1.213 ms
+2026-03-13T13:21:16.514Z [INFO] POST /api/auth/login 200 319 - 306.748 ms
+2026-03-13T13:28:10.598Z [INFO] ✅ MongoDB connected
+2026-03-13T13:28:10.602Z [INFO] 🚀 Server on port 3000
+2026-03-13T13:28:21.587Z [INFO] GET /flutter.js.map 404 153 - 1.107 ms
+2026-03-13T13:28:39.252Z [INFO] POST /api/auth/login 200 319 - 296.836 ms
+2026-03-13T13:28:52.909Z [INFO] ✅ MongoDB connected
+2026-03-13T13:28:52.916Z [INFO] 🚀 Server on port 3000
+2026-03-13T13:28:56.174Z [INFO] POST /api/auth/login 200 319 - 304.538 ms
+2026-03-13T13:28:57.091Z [INFO] POST /api/auth/login 200 319 - 294.044 ms
+2026-03-13T13:29:00.543Z [INFO] GET /flutter.js.map 404 153 - 0.769 ms
+2026-03-13T13:32:59.997Z [INFO] GET /flutter.js.map 404 153 - 0.402 ms
+2026-03-13T13:33:08.106Z [INFO] GET /flutter.js.map 404 153 - 0.217 ms
+2026-03-13T13:33:09.032Z [INFO] GET /flutter.js.map 404 153 - 0.137 ms
+2026-03-13T13:33:09.657Z [INFO] GET /flutter.js.map 404 153 - 0.143 ms
+2026-03-13T13:33:09.926Z [INFO] GET /flutter.js.map 404 153 - 0.318 ms
