@@ -43072,7 +43072,7 @@ gaI(a){var s=a.name
 s.toString
 return s}}
 A.aBb.prototype={
-$1(a){var s,r,q,p=A.aGM(A.aG1("http://192.168.1.11:3000/api",B.nQ,null)),o=A.aQw(),n=new A.Mw()
+$1(a){var s,r,q,p=A.aGM(A.aG1("https://dev-ai-4m5x.onrender.com/api",B.nQ,null)),o=A.aQw(),n=new A.Mw()
 B.ce.jV(n.gatr())
 s=$.aNZ()
 r=A.b([],t.m0)
@@ -44388,7 +44388,7 @@ A.rG.prototype={
 K(a){var s=null,r=A.cJ(14)
 return A.ds(s,A.eD(this.c,B.H,B.C,B.S),B.u,s,s,new A.c_(B.aU,s,s,r,s,s,B.a3),s,s,s,s,s,s,s)}}
 A.a1X.prototype={
-a5x(){var s=A.aGM(A.aG1("http://192.168.1.11:3000/api",B.nQ,B.nT))
+a5x(){var s=A.aGM(A.aG1("https://dev-ai-4m5x.onrender.com/api",B.nQ,B.nT))
 this.a!==$&&A.bn()
 this.a=s
 s=s.X2$
@@ -44583,7 +44583,7 @@ return A.v(B.cL.wG(0,"token",J.ao(a,"token")),$async$tb)
 case 2:return A.z(null,r)}})
 return A.A($async$tb,r)}}
 A.al6.prototype={
-VV(a){var s,r,q,p,o,n,m,l,k,j,i,h="http://192.168.1.11:3000",g=null,f="query",e=t.N,d=t.z,c=A.t(e,d)
+VV(a){var s,r,q,p,o,n,m,l,k,j,i,h="https://dev-ai-4m5x.onrender.com",g=null,f="query",e=t.N,d=t.z,c=A.t(e,d)
 c.m(0,"transports",A.b(["websocket"],t.s))
 c.m(0,"auth",A.Y(["token",a],d,d))
 c.F(0,"reconnection")
@@ -44595,7 +44595,7 @@ q=s.ge5(s)
 p=$.aAr.ar(0,r)&&$.aAr.h(0,r).d.ar(0,q)
 o=J.d(c.h(0,"forceNew"),!0)||J.d(c.h(0,"force new connection"),!0)||!1===c.h(0,"multiplex")||p
 n=A.bv("io")
-if(o){$.aPh().aY(B.t,"ignoring socket cache for http://192.168.1.11:3000",g,g)
+if(o){$.aPh().aY(B.t,"ignoring socket cache for https://dev-ai-4m5x.onrender.com",g,g)
 n.b=A.aI6(c,h)}else{m=$.aAr.h(0,r)
 if(m==null){m=A.aI6(c,h)
 $.aAr.m(0,r,m)}n.b=m}if(s.glC(s).length!==0&&c.h(0,f)==null)c.m(0,f,s.glC(s))
